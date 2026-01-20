@@ -1,0 +1,19 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "patching",
+    "version": "0.3.1",
+    "description": "Binary patching plugin for IDA Pro - Apply patches directly to binaries",
+    "entryPoint": "patching.py",
+    "authors": [
+      {"name": "Markus Gaasedelen", "email": "markus@gaasedelen.com"}
+    ],
+    "license": "MIT",
+    "urls": {
+      "repository": "https://github.com/gaasedelen/patching"
+    },
+    "idaVersions": ["9.0", "9.1", "9.2", "9.3"],
+    "platforms": ["windows-x86_64", "linux-x86_64", "macos-x86_64", "macos-aarch64"],
+    "pythonDependencies": []
+  }
+}

@@ -7,3 +7,6 @@ __pycache__/
 **.pyc
 **.log
 d810_logs/
+*.zip
+.claude/
+.DS_Store

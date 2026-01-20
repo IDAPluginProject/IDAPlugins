@@ -1,0 +1,18 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "lazyida",
+    "version": "1.2.0",
+    "description": "LazyIDA - Productivity enhancements for IDA Pro including data conversion, address copying, and HexRays enhancements",
+    "entryPoint": "LazyIDA.py",
+    "authors": [
+      {"name": "Lays", "email": "l4ys@l4ys.tw"}
+    ],
+    "license": "MIT",
+    "urls": {
+      "repository": "https://github.com/L4ys/LazyIDA"
+    },
+    "idaVersions": ["9.0", "9.1", "9.2", "9.3"],
+    "platforms": ["windows-x86_64", "linux-x86_64", "macos-x86_64", "macos-aarch64"]
+  }
+}

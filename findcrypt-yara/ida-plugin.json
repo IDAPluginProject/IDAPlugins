@@ -1,0 +1,21 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "findcrypt-yara",
+    "version": "0.3.0",
+    "description": "Find crypto constants in IDA Pro using YARA rules",
+    "entryPoint": "findcrypt3.py",
+    "authors": [
+      {"name": "David BERARD", "email": "david@berard.cc"}
+    ],
+    "license": "MIT",
+    "urls": {
+      "repository": "https://github.com/polymorf/findcrypt-yara"
+    },
+    "idaVersions": ["9.0", "9.1", "9.2", "9.3"],
+    "platforms": ["windows-x86_64", "linux-x86_64", "macos-x86_64", "macos-aarch64"],
+    "pythonDependencies": [
+      "yara-python"
+    ]
+  }
+}

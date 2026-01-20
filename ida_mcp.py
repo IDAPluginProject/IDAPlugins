@@ -1,1 +1,0 @@
-/Users/gaoyucan/.pyenv/versions/3.11.14/lib/python3.11/site-packages/ida_pro_mcp/ida_mcp.py

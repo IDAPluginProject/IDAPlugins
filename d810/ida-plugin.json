@@ -1,0 +1,21 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "d810",
+    "version": "0.2.0",
+    "description": "D-810 - Deobfuscation plugin for IDA Pro using pattern-based rules",
+    "entryPoint": "D810.py",
+    "authors": [
+      {"name": "Boris Music", "email": "music.boris@eshard.com"}
+    ],
+    "license": "GPL-3.0",
+    "urls": {
+      "repository": "https://github.com/EShard/d810"
+    },
+    "idaVersions": ["9.0", "9.1", "9.2", "9.3"],
+    "platforms": ["windows-x86_64", "linux-x86_64", "macos-x86_64", "macos-aarch64"],
+    "pythonDependencies": [
+      "z3-solver"
+    ]
+  }
+}
